@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root {
+   --color-cuadro: #ffffff;
+   --Very-dark-grayish-blue: hsl(237, 12%, 33%);
+   --Dark-grayish-blue: hsl(240, 6%, 50%);
+
+   --hover: #df8676;
+}
+
+
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+
+body {
+   font-family: 'Kumbh Sans', sans-serif;
+   font-size: 12px;
+   font-weight: 400;
+   background-image: linear-gradient(to bottom right, hsl(273, 75%, 66%), hsl(240, 73%, 65%) 100%);
+   background-repeat: no-repeat;
+   height: 100vh;
+
+}
+
+.container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+   margin-top: 5%;
+   position: relative;
+
+}
+
+.container__figure {
+   background-color: var(--color-cuadro);
+   height: 400px;
+   width: 400px;
+   border-radius: 15px 0 0 15px;
+   overflow: hidden;
+
+}
+
+.container__textos {
+   background-color: var(--color-cuadro);
+   height: 400px;
+   width: 400px;
+   border-radius: 0 15px 15px 0;
+   overflow: hidden;
+}
+
+.container__img {
+   width: 300px;
+   height: 300px;
+
+}
+
+.container__img__uno {
+   width: 500px;
+   height: 700px;
+
+   position: relative;
+   top: -200px;
+   left: -100px;
+   font-size: 18px;
+
+}
+
+.container__img__dos {
+   z-index: 1;
+   position: absolute;
+   top: 40px;
+   width: 400px;
+}
+
+.container__img__tres {
+   z-index: 1;
+   position: absolute;
+   top: 150px;
+   left: 450px;
+}
+
+.container__textos {
+   padding: 30px;
+
+}
+
+.container__h1 {
+   font-weight: Bold 700;
+}
+
+.acordion__titulo {
+   color: var(--Very-dark-grayish-blue);
+}
+
+summary {
+   list-style: none;
+   display: flex;
+   justify-content: space-between;
+}
+
+
+
+.acordion__titulo div {
+   font-size: 15px;
+}
+
+.acordion__titulo:active {
+   color: var(--hover);
+}
+
+.acordion__titulo:active {
+   color: var(--hover);
+}
+
+.acordion__titulo img {
+   font-size: 5px;
+}
+
+hr {
+   margin-bottom: 30px;
+   margin-top: 10px;
+}
+
+.acordion__textos {
+   margin-top: 10px;
+
+}
+
+p {
+   color: var(--Very-dark-grayish-blue)
+}
